@@ -1,0 +1,48 @@
+#app {
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+#board {
+	border: 2px solid black;
+	width: 720px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+input[type=button]:hover {
+	cursor: pointer;
+}
+
+input[type=button] {
+	font-size: 36px;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: repeat(9, 80px);
+}
+
+.cell {
+	height: 80px;
+	border: 1px solid black;
+	font-size: 36px;
+	line-height: 80px;
+	text-align: center;
+}
+
+.dark {
+	background-color: #CCC;
+}
+
+.menu {
+	width: 106px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.instructions {
+	padding-right: : 20px;
+}
+
+
